@@ -1,0 +1,18 @@
+# Unity Generated Folders
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+
+# Visual Studio
+*.csproj
+*.sln
+*.userprefs
+
+# Compiled files
+*.exe
+*.dll
+*.apk
+*.app
+*.unitypackage
