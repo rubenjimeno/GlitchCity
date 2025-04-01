@@ -5,11 +5,16 @@ public class PlayerShoot : MonoBehaviour
     public GameObject projectilePrefab;  // Prefab del proyectil
     public Transform firePoint;  // Punto desde donde se disparará el proyectil
     public float projectileSpeed = 10f;  // Velocidad del proyectil
+    public float fireRate = 0.2f;  // Tiempo entre disparos
+
+    private float nextFireTime = 0f;
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))  // Disparar con el botón izquierdo del ratón
+        // Comprobar si el tiempo actual es mayor al siguiente tiempo de disparo
+        if (Input.GetButton("Fire1") && Time.time >= nextFireTime)  // Usa Fire1 (por defecto el clic izquierdo)
         {
+            nextFireTime = Time.time + fireRate; // Establecer el siguiente tiempo de disparo
             Shoot();
         }
     }

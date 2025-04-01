@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 2494024176746088597}
   - component: {fileID: 2912866290012979827}
   - component: {fileID: 7519684017161133627}
-  - component: {fileID: 437328758429143579}
   m_Layer: 0
   m_Name: Mago
   m_TagString: Untagged
@@ -167,19 +166,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.94, y: 8.97}
   m_EdgeRadius: 0
---- !u!114 &437328758429143579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7706723861688315405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca96dbfde034a7d46b503c234b548074, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 0}
-  firePoint: {fileID: 3572708103104624820}
-  projectileSpeed: 5
-  fireRate: 3
