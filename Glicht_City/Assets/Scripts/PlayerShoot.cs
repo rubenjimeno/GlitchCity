@@ -6,8 +6,15 @@ public class PlayerShoot : MonoBehaviour
     public Transform firePoint;  // Punto desde donde se disparará el proyectil
     public float projectileSpeed = 10f;  // Velocidad del proyectil
     public float fireRate = 0.2f;  // Tiempo entre disparos
-
+    public AudioClip shootSound; // Sonido de disparo
+    
     private float nextFireTime = 0f;
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>(); // Obtener el componente AudioSource
+    }
 
     void Update()
     {
@@ -30,5 +37,12 @@ public class PlayerShoot : MonoBehaviour
         {
             rb.linearVelocity = transform.right * projectileSpeed; // Hace que se mueva hacia la derecha
         }
+        
+        // Reproducir sonido de disparo
+        if (shootSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
     }
 }
+

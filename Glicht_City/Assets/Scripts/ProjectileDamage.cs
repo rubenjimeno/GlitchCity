@@ -22,4 +22,4 @@ public class ProjectileDamage : MonoBehaviour
             Destroy(gameObject); // Destruye el proyectil al tocar el suelo
         }
     }
-}
+} 
