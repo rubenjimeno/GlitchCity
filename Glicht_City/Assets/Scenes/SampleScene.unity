@@ -247,7 +247,7 @@ MonoBehaviour:
   moveSpeed: 3
   jumpForce: 5
   leftLimit: -2.5
-  rightLimit: 16.5
+  rightLimit: 40
   jumpSound: {fileID: 8300000, guid: 418ea101f2d6b384898ea04fc81e32f4, type: 3}
 --- !u!114 &12478800
 MonoBehaviour:
@@ -264,7 +264,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1162736663}
   firePoint: {fileID: 1803065568}
   projectileSpeed: 6
-  fireRate: 0.2
+  fireRate: 0.4
   shootSound: {fileID: 8300000, guid: 0e451f97d8f6c394490c6c8031fb8610, type: 3}
 --- !u!114 &12478801
 MonoBehaviour:
@@ -2598,6 +2598,7 @@ GameObject:
   - component: {fileID: 1288247763}
   - component: {fileID: 1288247762}
   - component: {fileID: 1288247761}
+  - component: {fileID: 1288247765}
   m_Layer: 0
   m_Name: ColeccionableCambioNivel
   m_TagString: Untagged
@@ -2733,6 +2734,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1288247765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288247760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e05afc5079e52e49ae330021bbb801b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectSound: {fileID: 8300000, guid: 145e8006512462046ae08b215659a440, type: 3}
 --- !u!1 &1289704549
 GameObject:
   m_ObjectHideFlags: 0

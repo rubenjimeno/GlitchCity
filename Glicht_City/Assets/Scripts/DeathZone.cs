@@ -25,7 +25,7 @@ public class DeathZone : MonoBehaviour
             }
 
             // Reinicia el nivel tras un pequeño retraso para que el sonido se escuche
-            Invoke("ReloadScene", 0.7f);
+            Invoke("ReloadScene", 0.5f);
         }
     }
 

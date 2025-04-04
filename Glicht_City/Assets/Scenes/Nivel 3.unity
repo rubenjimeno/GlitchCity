@@ -247,7 +247,7 @@ MonoBehaviour:
   moveSpeed: 2
   jumpForce: 6
   leftLimit: -8
-  rightLimit: 8
+  rightLimit: 30
   jumpSound: {fileID: 8300000, guid: 418ea101f2d6b384898ea04fc81e32f4, type: 3}
 --- !u!114 &12478800
 MonoBehaviour:
@@ -742,8 +742,8 @@ Transform:
   m_GameObject: {fileID: 141179975}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.72, y: 0.1, z: -0.04057022}
-  m_LocalScale: {x: 0.7153447, y: 0.66163015, z: 1}
+  m_LocalPosition: {x: 2.72, y: -0.083, z: -0.04057022}
+  m_LocalScale: {x: 0.7153447, y: 0.5911004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 72270504}
@@ -1194,7 +1194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e05afc5079e52e49ae330021bbb801b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectSound: {fileID: 8300000, guid: 088f2580ee5f367439aa39aa6f024c3a, type: 3}
+  collectSound: {fileID: 8300000, guid: 145e8006512462046ae08b215659a440, type: 3}
 --- !u!61 &434662680
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1718,7 +1718,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.31
+  orthographic size: 5.36
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3258,7 +3258,7 @@ Transform:
   m_GameObject: {fileID: 1389713412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.98, y: -0.16, z: -0.04057022}
+  m_LocalPosition: {x: -0.73, y: -0.16, z: -0.04057022}
   m_LocalScale: {x: 0.6231359, y: 0.860592, z: 0.71716}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4524,7 +4524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2494024176746088597, guid: f122b9c4a1b4d3047b554c7622038a68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.59
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 2494024176746088597, guid: f122b9c4a1b4d3047b554c7622038a68, type: 3}
       propertyPath: m_LocalPosition.z
