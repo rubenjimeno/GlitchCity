@@ -776,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469bc3e319a68484aa8450ae86af2a93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinCount: 0
+  coinCount: 11
   coinText: {fileID: 1827770521}
 --- !u!4 &241882947
 Transform:
